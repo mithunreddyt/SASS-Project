@@ -1,0 +1,11 @@
+/*buttons*/
+
+.btn-primary{
+    @include add-background ($primary-color);
+    @include add-border(1px, #ffffff, all);
+}
+
+.btn-priamry:hover{
+    background: darken($primary-color,10%);
+    @include add-border(1px, #ffffff, all);
+}

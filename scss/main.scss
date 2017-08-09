@@ -1,0 +1,27 @@
+/* App built by using bootstrap, sass, html5
+Author: mithun tunga
+version: 0.0.1 */
+
+/*BASE - Base styles, mixins, variables, normalize */
+
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_normalize.scss';
+@import 'base/_base.scss';
+
+/*modules - blocks,buttons,components,sections,typograph */
+
+@import 'modules/_typograph.scss';
+@import 'modules/_blocks.scss';
+@import 'modules/_buttons.scss';
+@import 'modules/_sections.scss';
+@import 'modules/_components.scss';
+@import 'modules/_form.scss';
+
+/*Layouts - footer, header, nav */
+
+@import 'layouts/_nav.scss';
+@import 'layouts/_header.scss';
+@import 'layouts/_footer.scss';
+@import 'layouts/_blog.scss';
+@import 'layouts/_mobile.scss+';

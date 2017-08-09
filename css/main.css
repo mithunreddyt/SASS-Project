@@ -1,0 +1,596 @@
+/* App built by using bootstrap, sass, html5
+Author: mithun tunga
+version: 0.0.1 */
+/*BASE - Base styles, mixins, variables, normalize */
+/* Font colors */
+/*Backgrounds Colors */
+/*showcase Area */
+/*Mixins*/
+/* line 1, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/base/_normalize.scss */
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+}
+
+/* line 5, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/base/_normalize.scss */
+.page-header {
+  margin-top: 30px;
+}
+
+/* line 9, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/base/_normalize.scss */
+.no pad-top {
+  padding-top: 0;
+}
+
+/* line 13, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/base/_normalize.scss */
+.extra-pad {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 18, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/base/_normalize.scss */
+.top-inner {
+  padding: 90px 30px;
+}
+
+/*Image size*/
+/* line 22, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/base/_normalize.scss */
+.img-xsm {
+  width: 100px;
+}
+
+/* line 23, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/base/_normalize.scss */
+.img-sm {
+  width: 200px;
+}
+
+/* line 24, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/base/_normalize.scss */
+.img-lg {
+  width: 400px;
+}
+
+/* line 25, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/base/_normalize.scss */
+.img-xlg {
+  width: 700px;
+}
+
+/* line 1, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/base/_base.scss */
+body {
+  font-family: "segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: darkgrey;
+}
+
+/* line 7, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/base/_base.scss */
+a {
+  color: #00aff0;
+}
+
+/* line 10, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/base/_base.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 14, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/base/_base.scss */
+input, textarea, button {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0;
+}
+
+/* line 18, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/base/_base.scss */
+img.device {
+  width: 100%;
+}
+
+/* line 22, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/base/_base.scss */
+img.device-small {
+  width: 70%;
+  margin-bottom: -40px;
+}
+
+/*modules - blocks,buttons,components,sections,typograph */
+/*lists*/
+/* line 3, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.list, .list-feature {
+  margin-bottom: 30px;
+}
+
+/* line 7, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.list-feature {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+/* line 13, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.list-feature li {
+  line-height: 3.6em;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* line 17, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.list-feature li:last-child {
+  border: 0;
+}
+
+/* line 21, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.list-feature span {
+  vertical-align: top;
+  padding-top: 9px;
+  font-size: 120%;
+}
+
+/* line 27, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.list-feature i {
+  margin-top: -9px;
+  margin-right: 5px;
+}
+
+/* line 32, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.list-comments {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 36, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.list-comments li {
+  padding: 10px 0 5px 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* line 40, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.list-comments li:last-child {
+  border: 0;
+}
+
+/* line 44, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.list-comments img {
+  width: 100px;
+}
+
+/*icons*/
+/* line 48, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.fa-2 {
+  font-size: 18px;
+}
+
+/* line 51, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.fa-3 {
+  font-size: 24px;
+}
+
+/* line 54, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.fa-4 {
+  size: 27px;
+}
+
+/* line 57, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.fa-5 {
+  font-size: 35px;
+}
+
+/* line 60, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.fa-6 {
+  size: 40px;
+}
+
+/* line 64, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.fa-primary {
+  color: #00aff0;
+}
+
+/* line 68, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.fa-border {
+  border: 1px solid #00aff0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 0;
+  padding: 13px 15px;
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+/*Headings*/
+/* line 76, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.heading-primary, .heading-primary-a, .heading-light-a {
+  color: #00aff0;
+}
+
+/* line 80, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.heading-primary-a {
+  border-bottom: 2px solid #00aff0;
+}
+
+/* line 85, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.heading-secondary, .heading-secondary-a {
+  color: #7fba00;
+}
+
+/* line 88, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.heading-secondary-a {
+  border-bottom: 2px solid #7fba00;
+}
+
+/* line 92, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.heading-light {
+  color: #add8e6;
+}
+
+/* line 95, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.heading-light-a {
+  border-bottom: 2px solid #add8e6;
+}
+
+/* line 99, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.heading-dark, .heading-dark-a {
+  color: #333333;
+}
+
+/* line 102, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.heading-dark-a {
+  border-bottom: 2px solid #333333;
+}
+
+/*Empahseis text*/
+/* line 108, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.em-primary {
+  color: #00aff0;
+}
+
+/* line 111, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.em-secondary {
+  color: #7fba00;
+}
+
+/* line 114, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.em-light {
+  color: #add8e6;
+}
+
+/* line 117, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_typograph.scss */
+.em-dark {
+  color: #7fba00;
+}
+
+/*blocks*/
+/* line 3, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_blocks.scss */
+.block, .block-primary, .block-secondary, .block-light, .block-dark {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 7, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_blocks.scss */
+.block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 11, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_blocks.scss */
+.block iframe, .block-primary iframe, .block-secondary iframe, .block-light iframe, .block-dark iframe {
+  width: 100%;
+}
+
+/* line 16, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_blocks.scss */
+.block-primary {
+  background: #00aff0;
+  color: #ffffff;
+}
+
+/* line 21, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_blocks.scss */
+.block-secondary {
+  background: #7fba00;
+  color: #ffffff;
+}
+
+/* line 26, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_blocks.scss */
+.block-light {
+  background: #add8e6;
+  color: #666666;
+}
+
+/* line 31, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_blocks.scss */
+.block-dark {
+  background: #333333;
+  color: #ffffff;
+}
+
+/* line 36, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_blocks.scss */
+.block-center {
+  text-align: center !important;
+}
+
+/* line 40, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_blocks.scss */
+.block-image img {
+  width: 100% !important;
+}
+
+/* line 44, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_blocks.scss */
+.block-border {
+  border: 1px solid #cccccc;
+}
+
+/* line 49, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_blocks.scss */
+.block-primary-head h3 {
+  padding: 15px 5px 15px 10px;
+  background: #00aff0;
+  color: #ffffff;
+  margin: 0;
+  font-size: 15px;
+}
+
+/* line 54, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_blocks.scss */
+.block-primary-head .block-content {
+  border: 1px solid #00aff0;
+  padding: 10px;
+}
+
+/* line 60, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_blocks.scss */
+.block-icon h3 {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 64, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_blocks.scss */
+.block-icon .icon {
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+}
+
+/* line 70, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_blocks.scss */
+.block-icon .icon-content {
+  float: left;
+  width: 70%;
+}
+
+/*buttons*/
+/* line 3, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_buttons.scss */
+.btn-primary {
+  background: #00aff0;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+/* line 8, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_buttons.scss */
+.btn-priamry:hover {
+  background: #008abd;
+  border: 1px solid #ffffff;
+}
+
+/*Section */
+/* line 3, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_sections.scss */
+section {
+  padding: 30px 0px;
+}
+
+/* line 6, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_sections.scss */
+.section-showcase {
+  height: 400px;
+  background: url("../img/showcase.jpg") no-repeat top center;
+}
+
+/* line 10, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_sections.scss */
+.section-showcase .showcase-content {
+  padding: 110px 15px;
+  text-align: center;
+}
+
+/* line 14, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_sections.scss */
+.section-showcase h1 {
+  color: #00aff0;
+}
+
+/* line 19, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_sections.scss */
+.section-primary, .section-primary-a, .section-primary-b {
+  background: #00aff0;
+  color: #ffffff;
+}
+
+/* line 23, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_sections.scss */
+.section-primary-a {
+  border-top: 4px solid #7fba00;
+}
+
+/* line 28, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_sections.scss */
+.section-primary-b {
+  border-bottom: 4px solid #7fba00;
+}
+
+/* line 32, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_sections.scss */
+.section-secondary {
+  background: #7fba00;
+  color: #ffffff;
+}
+
+/* line 35, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_sections.scss */
+.section-light {
+  background: #add8e6;
+  color: #666666;
+}
+
+/* line 38, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_sections.scss */
+.section-dark {
+  background: #333333;
+  color: #ffffff;
+}
+
+/*Carousel*/
+/* line 3, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_components.scss */
+.carousel {
+  margin-bottom: 20px;
+}
+
+/* line 7, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_components.scss */
+.carousel img {
+  padding: 3px;
+  border: 1px solid #cccccc;
+}
+
+/*Tab*/
+/* line 14, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_components.scss */
+.tab-pane {
+  padding: 20px 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+/* line 21, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_components.scss */
+.tab-primary .tab-pane, .tab-primary .nav-tabs > li.active > a, .tab-primary .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus {
+  background: #00aff0;
+  color: #ffffff;
+}
+
+/* line 25, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_components.scss */
+.tab-light .tab-pane, .tab-light .nav-tabs > li.active > a, .tab-light .nav-tabs > li.active > a:hover, .tab-light .nav-tabs > li.active > a:focus {
+  background: #add8e6;
+  color: #666666;
+}
+
+/*serarch box*/
+/* line 3, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_form.scss */
+.search {
+  widht: 100%;
+}
+
+/* line 6, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_form.scss */
+.search h3 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+/* line 11, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_form.scss */
+.search input[type="search"] {
+  border: 0;
+  height: 50px;
+  widht: 80%;
+  border: 2px solid #00aff0;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+/* line 21, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/modules/_form.scss */
+.search button {
+  border: 0;
+  background: none;
+  padding: 0;
+  vertical-align: top;
+  margin-left: -4px;
+}
+
+/*Layouts - footer, header, nav */
+/* navbar */
+/* line 3, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_nav.scss */
+.navbar {
+  width: 92%;
+  margin: auto;
+  border-right: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
+  border-color: #fff;
+  min-height: 60px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+/* line 12, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_nav.scss */
+.navbar a {
+  color: #00aff0 !important;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  padding-bottom: 24px !important;
+  padding-top: 20px !important;
+}
+
+/* line 21, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_nav.scss */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background: #00aff0 !important;
+  color: white !important;
+}
+
+/*footer*/
+/* line 3, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_footer.scss */
+.footer-main {
+  background: #333333;
+  color: #ffffff;
+  border-top: 5px solid #7fba00;
+  min-height: 200px;
+  padding: 30px 0;
+  z-index: 100;
+}
+
+/* line 10, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_footer.scss */
+.footer-main a {
+  color: #ffffff;
+}
+
+/* line 13, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_footer.scss */
+.footer-main ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 17, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_footer.scss */
+.footer-main li {
+  line-height: 1.8em;
+  list-style: none;
+}
+
+/*blog*/
+/* line 2, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_blog.scss */
+.blog-post {
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  padding: 15px;
+}
+
+/* line 7, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_blog.scss */
+.blog-post h2.page-header {
+  margin-top: 5px !important;
+}
+
+/* line 12, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_blog.scss */
+.blog-featured {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 17, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_blog.scss */
+.post-meta {
+  background: #f3f3f3;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  /* line 2, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_mobile.scss */
+  .search {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 7, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_mobile.scss */
+  .device {
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+  /* line 12, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_mobile.scss */
+  .device-small {
+    margin-bottom: 20px !important;
+  }
+  /* line 17, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_mobile.scss */
+  .footer-main ul {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  /* line 21, C:/Users/Mithun Reddy/Desktop/projects/sassproject/scss/layouts/_mobile.scss */
+  .footer-main h4 {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=../css/main.map */
